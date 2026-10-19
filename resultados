@@ -1,3 +1,15 @@
+1. Resultado sem proteção: corrida.py
 python corrida.py
 Saldo esperado: 500
 Saldo obtido: 950
+
+2. Resultado com proteção: sincronizado.py
+Saldo esperado: 500
+Saldo obtido: 500
+
+3. Tabela de resultados
+Execução	Sem proteção	Com Lock
+1	950	500
+2	950	500
+3	950	500
+4	950	500
